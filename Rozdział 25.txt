@@ -1,0 +1,4 @@
+Rozdział 25
+Zadanie 1 — Teoria 
+
+Jeżeli napiszemy useEffect z fetch() bez tablicy dependencji to zrobi nam się pętla nieskończona requestów. Mechanizm będzie wyglądał w taki sposób że komponent utworzy się po raz pierwszy, wykona się ten useEffext z fetch, jest odpowiedź a funkcja aktualizuje się lecz zmiana stanu sprawia że react renderuje się ponownie i cykl zatacza koło mówiąc potocznie.
